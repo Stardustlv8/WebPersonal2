@@ -16,7 +16,7 @@ export class Academico extends React.Component<RouteComponentProps<{}>, {}> {
             <h1>Weather forecast</h1>
             <p>This component demonstrates fetching data from the server.</p>
             { contents }
-        </div>;
+        </div>; 
     }
 
     private static renderForecastsTable() {

@@ -8,7 +8,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
             <h1>Hello, world!</h1>
 
             <Carousel />
-
+             
         </div>;
     }
 }

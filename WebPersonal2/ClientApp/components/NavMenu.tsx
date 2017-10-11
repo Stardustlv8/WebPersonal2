@@ -17,7 +17,7 @@ export class NavMenu extends React.Component<{}, {}> {
                     <img className= 'Image' src="https://previews.123rf.com/images/indigofish/indigofish1512/indigofish151200060/49484467-avatar-masculino-o-pictograma-para-las-redes-sociales-estilo-colorido-plana-moderna-Foto-de-archivo.jpg"
                         width="40%" height="20%" />
                 </div>
-                <div className='clearfix'></div>
+                <div className='clearfix'></div> 
                 <div className='navbar-collapse collapse'>
                     <ul className='nav navbar-nav'>
                         <li>
