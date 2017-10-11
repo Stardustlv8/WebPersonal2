@@ -19,15 +19,15 @@ export class Carousel extends React.Component<{}, {}> {
             <div className='carousel-inner'>
 
                 <div className='item active'>
-                    <img src='/Carousel/1.jpg' alt='Pueblo' width='400px' height='600px' />
+                    <img src='/Carousel/1.jpg' alt='Pueblo' width='400' height='600' />
                 </div>
 
                 <div className='item'>
-                    <img src='/Carousel/2.jpg' alt='Estancia' width='400px' height='600px' />
+                    <img src='/Carousel/2.jpg' alt='Estancia' width='400' height='600' />
                 </div>
 
                 <div className='item'>
-                    <img src='/Carousel/3.jpg' alt='Aspiracion' width='400px' height='600px' />
+                    <img src='/Carousel/3.jpg' alt='Aspiracion' width='400' height='600' />
                 </div>
 
             </div>

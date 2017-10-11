@@ -10,7 +10,6 @@
   <ItemGroup>
     <None Remove="ClientApp\components\Academico.tsx" />
     <None Remove="ClientApp\components\Carousel.tsx" />
-    <None Remove="ClientApp\components\Video.tsx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,22 +22,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Carousel\1.jpg" />
-    <None Include="wwwroot\Carousel\2.jpg" />
-    <None Include="wwwroot\Carousel\3.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <TypeScriptCompile Include="ClientApp\components\Academico.tsx" />
     <TypeScriptCompile Include="ClientApp\components\Carousel.tsx" />
-    <TypeScriptCompile Include="ClientApp\components\Video.tsx" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Shared\" />
-    <Folder Include="wwwroot\Content\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
