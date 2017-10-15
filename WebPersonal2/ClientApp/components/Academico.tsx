@@ -5,9 +5,6 @@ import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
 
 export class Academico extends React.Component<RouteComponentProps<{}>, {}> {
-    constructor() {
-        super();
-    }
 
     public render() {
         let contents = Academico.renderForecastsTable();

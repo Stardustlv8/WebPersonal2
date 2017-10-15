@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Remove="ClientApp\components\Academico.tsx" />
     <None Remove="ClientApp\components\Carousel.tsx" />
+    <None Remove="ClientApp\components\Contact.tsx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,13 +25,13 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\components\Academico.tsx" />
     <TypeScriptCompile Include="ClientApp\components\Carousel.tsx" />
+    <TypeScriptCompile Include="ClientApp\components\Contact.tsx" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Shared\" />
-    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
