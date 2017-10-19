@@ -3,6 +3,8 @@
 // https://github.com/Microsoft/TypeScript/wiki/JSX
 import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
+import { Social } from './Social';
+import { Footer } from './Footer';
 
 export class Contact extends React.Component<RouteComponentProps<{}>, {}> {
 
@@ -14,10 +16,13 @@ export class Contact extends React.Component<RouteComponentProps<{}>, {}> {
             <p>Telefono Local:   2224673950</p>
 
             <h1>Redes Sociales</h1>
-            <p>Facebook: </p>
-            <p>Twitter: </p>
-            <p>Instagram: </p>
-
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Whatsapp</li>
+                <li>Youtube</li>
+            </ul>
         </div>; 
     }
     

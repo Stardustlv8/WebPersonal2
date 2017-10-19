@@ -9,8 +9,13 @@
 
   <ItemGroup>
     <None Remove="ClientApp\components\Academico.tsx" />
+    <None Remove="ClientApp\components\Acercade.tsx" />
     <None Remove="ClientApp\components\Carousel.tsx" />
     <None Remove="ClientApp\components\Contact.tsx" />
+    <None Remove="ClientApp\components\Footer.tsx" />
+    <None Remove="ClientApp\components\Habilidades.tsx" />
+    <None Remove="ClientApp\components\Proyectos.tsx" />
+    <None Remove="ClientApp\components\Social.tsx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,8 +29,13 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\components\Academico.tsx" />
+    <TypeScriptCompile Include="ClientApp\components\Acercade.tsx" />
     <TypeScriptCompile Include="ClientApp\components\Carousel.tsx" />
     <TypeScriptCompile Include="ClientApp\components\Contact.tsx" />
+    <TypeScriptCompile Include="ClientApp\components\Footer.tsx" />
+    <TypeScriptCompile Include="ClientApp\components\Habilidades.tsx" />
+    <TypeScriptCompile Include="ClientApp\components\Proyectos.tsx" />
+    <TypeScriptCompile Include="ClientApp\components\Social.tsx" />
   </ItemGroup>
 
   <ItemGroup>
